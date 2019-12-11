@@ -4,7 +4,9 @@
     max-width: 550px;
     border-radius: 15px;
     border: 2px solid grey;
-    padding-bottom: 25px;
+    padding: 25px;
+    padding-right:0px;
+    
 }
 .display {
     margin-top: 25px;
@@ -19,4 +21,22 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
+    
+  }
+  .button{
+      font-size:2rem;
+      width:15%;
+      padding: 4%;
+      margin:4%;
+      border-radius:50%;
+      background-color: #225D9E;
+      color: white;
+  }
+
+  .button:nth-last-of-type(3){
+      width: 38%;
+      border-radius: 43%;
+  }
+  .lightblue{
+      background-color:#237293;
   }
